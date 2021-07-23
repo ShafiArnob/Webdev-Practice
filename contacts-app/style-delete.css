@@ -13,8 +13,6 @@ margin: 0 auto;
 background-color: #313438;
      min-height: 100vh;
 }
-
-
 .hero{
 color: white;
 background: linear-gradient(90deg, rgba(111,177,127,1) 0%, rgba(154,173,89,1) 100%);	
