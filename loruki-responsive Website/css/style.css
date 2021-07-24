@@ -126,7 +126,20 @@ img{
 .showcase p{
   margin: 20px 0;
 }
-
+.showcase::before,
+.showcase::after{
+  content: '';
+  position: absolute;
+  height: 100px;
+  bottom: -70px;
+  right: 0;
+  left: 0;
+  background:#fff;
+  transform: skewY(-2deg);
+  -webkit-transform: skewY(-2deg);
+  -moz-transform: skewY(-2deg);
+  -ms-transform: skewY(-2deg);
+}
 .showcase-form{
   position: relative;
   top:60px;
