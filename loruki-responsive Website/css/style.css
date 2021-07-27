@@ -168,3 +168,7 @@ grid-template-columns: 4fr, 3fr;
 .languages .card:hover{
   transform: translateY(-15px);
 }
+/* footer */
+.footer .social a{
+  margin: 0 10px;
+}
